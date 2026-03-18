@@ -1,5 +1,5 @@
 import ProductCard from "./ProductCard";
-import "./styles.css";
+import "./assets/styles.css";
 
 function ProductGrid() {
 
