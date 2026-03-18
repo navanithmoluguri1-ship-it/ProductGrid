@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #6087e1;
+}
+
+
+/* TITLE */
+
+h1 {
+  text-align: center;
+  padding: 10px;
+}
+
+
+/* GRID */
+
+.grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(auto-fit, minmax(220px, 1fr));
+
+  gap: 15px;
+
+  padding: 15px;
+}
+
+
+/* CARD */
+
+.card {
+
+  background-color: rgb(148, 230, 239);
+
+  border-radius: 10px;
+
+  padding: 12px;
+
+  text-align: center;
+
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+
+  transition: 0.3s;
+}
+
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+
+
+
+.card img {
+
+  width: 150px;
+
+  height: 150px;
+
+  object-fit: cover;
+
+  border-radius: 8px;
+
+}
+
+
+/* PRICE */
+
+.price {
+  color: green;
+  font-weight: bold;
+}
+
+
+/* BUTTON */
+
+button {
+  background-color: blue;
+  color: rgb(119, 211, 221);
+
+  border: none;
+
+  padding: 6px 10px;
+
+  border-radius: 6px;
+
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkblue;
+}
